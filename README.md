@@ -3,7 +3,6 @@ It's a simple example or demo project to show rabbitMQ operations
 it's made by using following technologies
 - ReactJS
 - NodeJS
-- MongoDB
 - ExpressJS
 - MaterialUI
 - RabbitMQ
@@ -35,8 +34,11 @@ it's made by using following technologies
     2. Install Packages
     yarn
 
-    3. start Server App
-    nodemon src/server.js 
+    3. start Server1 App to send message in queue
+    nodemon src/server1.js 
+
+    4. start Server2 App to consume message from queue
+    nodemon src/server2.js 
 
 - Client    
 
@@ -49,3 +51,20 @@ it's made by using following technologies
     3. start Server App
     yarn start
 ```
+
+## Tasks Completed
+
+1. Homepage
+2. server1 to send message to queue 
+3. server2 to receive message from queue 
+
+## Demo ScreenShots
+
+- RabbitMQ - idle
+  ![rabbitMQ1](rabbitMQ1.png)
+
+- RabbitMQ - send message
+  ![rabbitMQ2](rabbitMQ2.png)
+
+- RabbitMQ - receive message
+  ![rabbitMQ3](rabbitMQ3.png)  
